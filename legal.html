@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & conditions</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="legal.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+</head>
+
+<body>
+
+<header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="./logo/WhatsApp Image 2025-09-26 at 13.57.10_c0b017a4.jpg" alt="Gods Life Health Care">
+                <div class="logo-text">Gods <span>Life</span></div>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Doctors</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="btn">Get Consultation</a></li>
+            </ul>
+
+            <div class="ham-icon">
+                <img class="ham-img" src="./logo/hamburger.jpg" alt="">
+            </div>
+        </div>
+</header>
+
+<section class="Legal-section">
+    <div class="legal-consu">
+    <h1>Legal & Consultation</h1>
+    <p>Review our policies and book your medical consultation </p>
+    </div>
+</section>
+
+<section class="tab-section">
+    <div class="tabs">
+        <button class="tab active" data-target="terms">Terms & Conditions</button>
+        <button class="tab" data-target="privacy">Privacy Policy</button>
+        <button class="tab" data-target="booking-form">Book Consultation</button>
+    </div>
+
+<!--for each tab buttons-->
+    <div class="tab-content">
+        <!-- Terms & Conditions -->
+        <div id="terms" class="content content-active">
+            <h2>Terms & Conditions</h2>
+            <p class="update-date"><strong>Last Updated:</strong> January 1, 2025</p>
+            <p>Welcome to <strong>Gods Life Health Care</strong>. These terms and conditions outline the rules and regulations for using our website and services.</p>
+
+            <h3>1. Acceptance of Terms</h3>
+                <p>By accessing this website and using our services, you accept these terms and conditions in full. Do not continue to use Gods Life Health Care’s services if you do not accept all the terms and conditions stated on this page.</p>
+
+            <h3>2. Medical Disclaimer</h3>
+                <p>The information provided on this website is for general informational purposes only and is not intended as medical advice. Always seek the advice of your physician or other qualified healthcare provider with any questions you may have regarding a medical condition.</p>
+
+            <h3>3. Services</h3>
+                <p>Gods Life Health Care provides medical facilitation services, including but not limited to:</p>
+            <ul>
+                <li>Connecting patients with healthcare providers</li>
+                <li>Assistance with travel arrangements</li>
+                <li>Coordination of medical appointments</li>
+                <li>Providing information about treatment options</li>
+            </ul>
+
+            <h3>4. Patient Responsibilities</h3>
+            <ul>
+                <li>Provide accurate and complete medical information</li>
+                <li>Follow prescribed treatment plans</li>
+                <li>Understand the risks and benefits of medical procedures</li>
+                <li>Make timely payments for services rendered</li>
+            </ul>
+
+            <h3>5. Limitation of Liability</h3>
+            <p>Gods Life Health Care acts as a facilitator between patients and healthcare providers. We are not liable for:</p>
+            <ul>
+                <li>Medical outcomes or complications</li>
+                <li>Actions or omissions of healthcare providers</li>
+                <li>Travel-related issues or delays</li>
+                <li>Third-party services outside our control</li>
+            </ul>
+        </div>
+
+        <!-- Privacy Policy -->
+        <div id="privacy" class="content">
+            <h2>Privacy Policy</h2>
+            <p class="update-date"><strong>Last Updated:</strong> January 1, 2025</p>
+            <p>Your privacy is very important to us at Gods Life Health Care. This Privacy Policy explains how we collect, use, and protect your personal information.</p>
+
+            <h3>1. Information We Collect</h3>
+            <p>We collect information that you provide directly to us such as name, email, contact details, and medical information when booking consultations or requesting services.</p>
+
+            <h3>2. How We Use Your Information</h3>
+            <ul>
+                <li>To provide and manage our services</li>
+                <li>To communicate with you about bookings and updates</li>
+                <li>To improve our platform and patient experience</li>
+                <li>To comply with legal obligations</li>
+            </ul>
+
+            <h3>3. Data Security</h3>
+            <p>We use advanced encryption and secure systems to protect your data. However, we cannot guarantee absolute security due to inherent internet risks.</p>
+
+            <h3>4. Sharing Information</h3>
+            <p>Your data may be shared only with verified healthcare partners for treatment coordination, and never sold to third parties.</p>
+
+            <h3>5. Contact Us</h3>
+            <p>If you have questions regarding our privacy policy, contact us at: 
+            <a href="mailto:info@godslifehealthcare.com">info@godslifehealthcare.com</a>
+            </p>
+        </div>
+
+
+
+        <!-- Booking Form Division -->
+        <div id="booking-form" class="content ">
+            <h3>Book an Appointment</h3>
+            <form id="consultationForm">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" required>
+
+                <label for="problem">Describe your medical problem briefly</label>
+                <textarea id="problem" rows="4" placeholder="Write a short description of your health concern..." required></textarea>
+
+                <div class="consent-box">
+                    <input type="checkbox" id="consent" required>
+                    <label for="consent">
+                        By submitting this form, I consent to <strong>GodsLife</strong> using my information 
+                        to contact me and send notifications and promotional SMS messages.
+                    </label>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Gods Life Health Care</h3>
+                <p>Providing world-class medical tourism services with compassion and excellence.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Doctors</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Medical Services</h3>
+                <ul>
+                    <li><a href="#">Cardiac Surgery</a></li>
+                    <li><a href="#">Orthopedics</a></li>
+                    <li><a href="#">Cosmetic Surgery</a></li>
+                    <li><a href="#">Dental Care</a></li>
+                    <li><a href="#">Fertility Treatments</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Medical Avenue, Health City</p>
+                <p><i class="fas fa-phone"></i> ‪+1 234 567 8900‬</p>
+                <p><i class="fas fa-envelope"></i> info@godslifehealthcare.com</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2023 Gods Life Health Care. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+<script src="legal.js"></script>
+</body>
+</html>
